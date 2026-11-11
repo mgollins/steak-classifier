@@ -40,16 +40,3 @@ if uploaded is not None:
         st.error(f"Error: {e}")
     finally:
         os.unlink(path)
-requirements.txt
-txt
-streamlit
-fastai
-torch
-torchvision
-pillow
-huggingface_hub
-Next steps
-Upload this app.py and requirements.txt to your GitHub repository.
-Go to share.streamlit.io and deploy the app (select the GitHub repo and app.py).
-The app will download the model from your existing Hugging Face Space at startup. Let me know what happens when you deploy.
-
