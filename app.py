@@ -12,7 +12,7 @@ pathlib.WindowsPath = pathlib.PosixPath
 def load_model():
     model_path = hf_hub_download(
         repo_id="LabBusters/steak-classifier",
-        filename="steak_classifier.pkl",
+        filename="steak_classifier_colab.pkl",
         repo_type="space"
     )
     return load_learner(model_path, cpu=True)
