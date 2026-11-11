@@ -1,5 +1,6 @@
+streamlit
 fastai
-gradio
 torch
 torchvision
 pillow
+huggingface_hub
